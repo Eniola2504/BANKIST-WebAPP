@@ -38,7 +38,9 @@ body {
   padding: 15rem 3rem;
   border-top: 1px solid #ddd;
 
-  transition: transform 1s, opacity 1s;
+  transition:
+    transform 1s,
+    opacity 1s;
 }
 
 .section--hidden {
@@ -125,7 +127,8 @@ img {
 }
 
 /* nav and stickly class at the same time */
-.nav.sticky {
+
+.sticky {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
 }
